@@ -19,7 +19,7 @@ nltk.download('wordnet')
 nltk.download('stopwords')
 
 # Set template_folder to the templates directory
-app = Flask(__name__, template_folder='/Users/arpit/Desktop/Sabkuch/NLP_Project/templates')
+app = Flask(__name__, template_folder='templates')
 
 # Load model and Word2Vec
 model = joblib.load('sentiment_model.pkl')
