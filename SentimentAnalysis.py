@@ -1,4 +1,4 @@
-# 1. Load libraries and dataset
+
 import pandas as pd
 import re
 import nltk
@@ -18,7 +18,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
-# 2. Load and clean data
+#  Load and clean data
 df = pd.read_csv('all_kindle_review .csv')[['reviewText', 'rating']]
 df.dropna(inplace=True)
 
